@@ -1,0 +1,146 @@
+
+
+.game-container{
+display:flex;
+align-items: center;
+flex-direction: column;
+
+}
+.color-generate{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.main-colors{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+
+}
+.color-1{
+    display: flex;
+    height: 15%;
+    width: 20%;
+   border:10px solid;
+   border-radius: 25%;
+   margin:5%;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+ 
+
+
+}
+.color-2{
+    display: flex;
+    height: 15%;
+    width: 20%;
+   border:10px solid;
+   border-radius: 25%;
+   margin:5%;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.color-3{
+    display: flex;
+    height: 15%;
+    width: 20%;
+    border:10px solid;
+    border-radius: 25%;
+    margin:5%;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   
+}
+.btn{
+    
+    background: rgb(34, 71, 24);
+    color: yellow;
+    margin-left: 15px;
+    display: flex;
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    
+    
+}
+
+   
+    .p{font-weight: bolder;
+    font-size: 2em;
+margin: auto;}
+
+
+.colors-board{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    .color-item{
+        border-radius: 25%;
+        margin:5px;
+        display: flex;
+        flex-flow: row;
+        
+justify-content: space-between;
+        border: 1px solid ;
+        width: 5em;
+        height: 5em;
+        cursor: pointer;
+        &:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+
+    }
+}
+.disappear{
+    display: none;
+    
+}
+.btn2 {   display: flex;
+    width: 10em;
+    height: 10em;
+    font-size: 16px;
+    border-radius: 50%;
+    font-weight: bolder;
+    background: #24235F;
+    color:white;
+
+}
+.added{display:flex;}
+
+.text{
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    font-weight: bolder;
+    font-size:18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 30%;
+    color: rgb(30, 31, 25);
+    
+    &::first-line {
+        font-size: 24px;
+        color: teal;
+        font-family: 'Times New Roman', Times, serif;
+    }
+   
+}
+body{
+    background: rgb(167, 218, 201);
+}
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    &:focus {
+        outline: 0;
+    }
+&:hover {
+    background-color: white; /* Green */
+    color: black;
+}
+
+}
+
